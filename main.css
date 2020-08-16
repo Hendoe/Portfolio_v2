@@ -7,8 +7,8 @@
 /* .2 keep this */
 body {
     background: #83537A;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 /* TEXT */
@@ -16,48 +16,43 @@ body {
 /* Only for Main Title */
 h1 {
     font-family: 'Century Gothic', 'Franklin Gothic Medium', Arial;
-    font-size: 36px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 250;
     text-decoration: underline;
-    padding-top: 0px;
 }
 
 /* Just for Main Subtitle */
 h2 {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
     font-weight: 250;
     padding-bottom: 0px;
-    font-size: 36px;
 }
-
-/* Need Dedicated NAV text */
 
 /* Used for all small Titles */
 h3 {
     font-family: "Times New Roman", Arial;
-    font-weight: 200;
-    font-size: 36px;
+    font-size: 14px;
 }
 
-/* hasdfkhasdfkjhadkjsf */
 h4 { 
     font-family: "Times New Roman, Arial";
-    font-size: 32px;
+    font-size: 14px;
 }
 
 p {
-    font-size: 24px;
+    font-size: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 ul {
       list-style-type: none;
-      font-size: 26px;
+      font-size: 12px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 ol {
-    font-size: 26px;
+    font-size: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -103,17 +98,21 @@ img {
     background-color: #483246;
 }
 
-.sub-group {
+.group-contact {
     display: flex;
-    flex-direction: column;
 }
 
 /* gotta do some chopping */
 .item {
     flex: 1;
+    text-align: center;
 }
 
-.item-uno {
+.contact-item {
+    flex: 1;
+}
+
+.item-pic {
     flex: 0.5;
     border-style: solid;
     border-color: #483343;
@@ -123,7 +122,7 @@ img {
     background-color: #483246;
 }
 
-.item-dos {
+.item-hi {
     flex: 1;
     border-style: solid;
     border-color: #483343;
@@ -131,38 +130,23 @@ img {
     padding-left: 25px;
 }
 
-.item-tres {
-    flex: 1;
-}
-
-.item-cuatro {
-    flex: 1;
-}
-/*do i even use this ? */
-.box-dos {
-    box-sizing: border-box;
-    width: 750px;
-    height: 100px;
-    background-color: #5C415D;
-}
-/* Dividers */
 hr {
     height: 8px;
-    width: 4000px;
-    margin-left: -500px;
     background-color: #483343;
 }
+
 /* Forms */
-/* really gotta work on */
 form label {
+    display: block;
     font-size: 36px;
 }
-
-textarea {
-    height: 35px;
-    width: 600px;
+form input, textarea {
+    width: 100%;
 }
 
+form textarea {
+    height: 120px;
+}
 
 /* Alignments */
 .centered {
@@ -174,14 +158,31 @@ textarea {
 /* add Tablet Mode */
 /* Desktop Mode */
 @media all and (min-width: 1000px) {
+    h1 {
+        font-size: 32px;
+    }
+    
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
     p {
         font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
     }
+
     ul {
         font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
     }
+
     ol {
         font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
     }
     
     /* Intro Flex (it's a row for Desktops) */
@@ -205,10 +206,11 @@ textarea {
         padding: 0px 100px;
     }
     
-
+}
     /* Cool Stuff (what is this called again ???) */
-    a:link { color: purple}
-    a:visited { color: gray}
+    a { color: white }
+    a:link { color: white}
+    /*a:visited { color: gray}
     a:hover { color:darkviolet}
     a:active { color: goldenrod}
-    }
+    */

@@ -5,16 +5,14 @@
     <meta name='viewport' content='width=device-width'>
     <title>Hendoe</title>
     <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css' rel='stylesheet' type='text/css'/>
-    <link href='main.css' rel='stylesheet' type='text/css' />
+    <link href='main.css' rel='stylesheet'/>
   </head>
 
   <body>
-    <!-- Pretty Happy with this Header -->
     <header class='group-header'>
       <h1>Steven "Hendoe" Henderson</h1>
       <h2>Aspiring Software Developer</h2>
     </header>
-    <!-- add nav here -->
     <nav class='group-nav'>
       <div class='item'><h3><a href='#aboutMe'>About Me</a></h3></div>
       <div class='item'><h3><a href='#projects'>Projects</a></h3></div>
@@ -23,10 +21,10 @@
   <main>
   <!-- Leave the Picture and Intro part seperated as it is -->
     <article class='group-intro'>
-      <div class='item-uno'>
+      <div class='item-pic'>
         <img src='images/picOfMe.jpg' width= 360 alt='Myself'>
       </div>
-      <div class='item-dos'>
+      <div class='item-hi'>
         <h3>Hello! Welcome to my Page!</h3>
         <p>I am currently studying Javascript, HTML, and CSS with <a href='https://www.thinkful.com/'>Thinkful</a> in Austin, TX.</p>
         <p>Most of my 20s was spent playing with numerous local Austin bands. And then I took off years to work and explore Colorado.</p>
@@ -38,18 +36,14 @@
       <!-- Flesh this out a little more for the -->
       <a id='aboutMe'></a>
       <h3>About Me</h3>
-      <p>Although a Native New Yorker, I consider Texas my home. Halfway through Highschool I moved to the Lone Star State, and eventually became a resident of 
-         Austin when it was time to leave the nest.</p>
-      <p>The music scene turned into a very big part of my life, as I played in several bands, gigging throughout the city, and making many friends along the way.</p>
-      <p>I also spent many years going out to Colorado to climb mountains and work odd jobs at National Parks.</p>
-      <p>Playing guitar has been my primary passion for around 12 years now. Although never something I've been able to do professionally, I have experience with:</p>
+      <p>I am currently building an extensive skillset in programming. Below you can find a selection of Projects that showcase my abilities. Coding is an activity
+        I derive immense enjoyment from and am actively improving with on a daily basis.</p>
         <ul>
-          <li>Music Performance</li>
-          <li>Audio Engineering</li>
-          <li>Live Sound Mixing</li>
+          <li>CSS</li>
+          <li>HTML</li>
+          <li>Javascript</li>
+          <li>Backend</li>
         </ul>
-      <p>Right now I am building an extensive skillset in programming. Below you can find a selection of Projects that showcase my abilities. Coding is an activity
-         I derive immense enjoyment from and am actively improving with on a daily basis.</p>
     </article>    
 <hr>
     <article>
@@ -57,7 +51,7 @@
       <a id='projects'></a>
       <h3 class='centered'>Projects</h3>
       <div class='group-project'>
-        <div class='item-tres'>
+        <div class='item'>
           <img src='images/RA-medTank.jpg' alt='CnC Tanks'>
           <h3>Commander 9000</h3>
           <h4>A series of AI Modifications to CnC RA</h4>
@@ -70,7 +64,7 @@
           <a href='404.html'>The Github</a>
           <a href='404.html'>Commander 9000</a>
         </div>
-        <div class='item-tres'>
+        <div class='item'>
           <img src='images/milStar.png' alt='Millenium Star'>
           <h3>Starman</h3>
           <h4>Facebook Messenger on Cell Phone to TV Sound App</h4>
@@ -93,15 +87,18 @@
         <li><a target='_blank' href='https://github.com/Hendoe'>Github</a></li>
         <li><a target='_blank'href='https://www.linkedin.com/in/steven-henderson-9334131a9/'>LinkedIn</a></li>
       </ol>
-      <!-- This Form section sucks, gotta fix -->
-      <form id='contact'>
-        <label for='contact'>Your Name</label>
-        <input id='your-name' type='text' name='name'>           
-        <label for='form-message'>Contact Form</label>
-        <textarea id='form-message' name='message' placeholder='Let me know what you think about my site here, if you are so inclined'></textarea>
-        <button type='submit'>Submit</button>
-        <button type='reset'>Reset</button>
-      </form>
+      <div class='group-intro'>
+        <div class='contact-item'>
+          <form action="#" method="POST">
+            <label for='your-name'>Your Name</label>
+            <input id='your-name' type='text' name='name'>
+
+            <label for='form-message'>Contact Form</label>
+            <textarea id='form-message' name='message'></textarea> 
+            <button type='submit'>Submit</button>
+        </form>
+      </div>
+    </div>
     </article>
 
       <footer class='group-uno'>
