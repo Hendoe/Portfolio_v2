@@ -1,0 +1,10 @@
+1: Add a workable Nav Bar (yay)
+2: Add Submit/Reset Buttons to Contact Forms (yay)
+3: Fix the Projects Section (yay)
+4: Make Email in Contact Section a link (yay)
+5: Format the Nav Bar nicely
+6: Format the Contact Forms
+7: Make Profile/Intro a row on Desktop Only (yay)
+8: Reformat the borders on Intro for Mobile
+9: Get rid of all the Spanish CSS
+10: Beautify the Projects Area

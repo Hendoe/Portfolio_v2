@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width'>
+    <title>Hendoe</title>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css' rel='stylesheet' type='text/css'/>
+    <link href='main.css' rel='stylesheet' type='text/css' />
+  </head>
+
+  <body>
+    <!-- Pretty Happy with this Header -->
+    <header class='group-header'>
+      <h1>Steven "Hendoe" Henderson</h1>
+      <h2>Aspiring Software Developer</h2>
+    </header>
+    <!-- add nav here -->
+    <nav class='group-nav'>
+      <div class='item'><h3><a href='#aboutMe'>About Me</a></h3></div>
+      <div class='item'><h3><a href='#projects'>Projects</a></h3></div>
+      <div class='item'><h3><a href='#contact'>Contact</a></h3></div>
+    </nav>
+  <main>
+  <!-- Leave the Picture and Intro part seperated as it is -->
+    <article class='group-intro'>
+      <div class='item-uno'>
+        <img src='images/picOfMe.jpg' width= 360 alt='Myself'>
+      </div>
+      <div class='item-dos'>
+        <h3>Hello! Welcome to my Page!</h3>
+        <p>I am currently studying Javascript, HTML, and CSS with <a href='https://www.thinkful.com/'>Thinkful</a> in Austin, TX.</p>
+        <p>Most of my 20s was spent playing with numerous local Austin bands. And then I took off years to work and explore Colorado.</p>
+        <p>When I turned 25 I decided to slow down a little bit, and get an education. In May of 2020 I earned my Associate's Degree, and I am now pursuing 
+           the next phase of my education by learning to code.</p>
+      </div>
+    </article>
+    <article>
+      <!-- Flesh this out a little more for the -->
+      <a id='aboutMe'></a>
+      <h3>About Me</h3>
+      <p>Although a Native New Yorker, I consider Texas my home. Halfway through Highschool I moved to the Lone Star State, and eventually became a resident of 
+         Austin when it was time to leave the nest.</p>
+      <p>The music scene turned into a very big part of my life, as I played in several bands, gigging throughout the city, and making many friends along the way.</p>
+      <p>I also spent many years going out to Colorado to climb mountains and work odd jobs at National Parks.</p>
+      <p>Playing guitar has been my primary passion for around 12 years now. Although never something I've been able to do professionally, I have experience with:</p>
+        <ul>
+          <li>Music Performance</li>
+          <li>Audio Engineering</li>
+          <li>Live Sound Mixing</li>
+        </ul>
+      <p>Right now I am building an extensive skillset in programming. Below you can find a selection of Projects that showcase my abilities. Coding is an activity
+         I derive immense enjoyment from and am actively improving with on a daily basis.</p>
+    </article>    
+<hr>
+    <article>
+    <!-- Make these projects look semi legit -->
+      <a id='projects'></a>
+      <h3 class='centered'>Projects</h3>
+      <div class='group-project'>
+        <div class='item-tres'>
+          <img src='images/RA-medTank.jpg' alt='CnC Tanks'>
+          <h3>Commander 9000</h3>
+          <h4>A series of AI Modifications to CnC RA</h4>
+          <p>This is a mod for the videogame Command and Conquer: Red Alert that signifactly increases the intelligence and tactial decision making of the 
+             game's built Skirmish AI. It also comes with several custom created maps (by yours truly) that allow the Artifical Intelligence to really show off
+             what it is capable of. The mod required taking old school code and brining it the modern era. I had to do a lot of research to figure out solutions 
+             to a great deal of problems; from unit pathfinding to getting the AI to prioritze certain buildings and troops to purchase so as to effectively
+             counter the player, as well as how to use them in the most efficient way. It also required dozens of hours of playtesting, to find out exactly 
+             how to create maps that allowed organic, enagaging, and satsifying confrontations to develop over the course of a match.</p>
+          <a href='404.html'>The Github</a>
+          <a href='404.html'>Commander 9000</a>
+        </div>
+        <div class='item-tres'>
+          <img src='images/milStar.png' alt='Millenium Star'>
+          <h3>Starman</h3>
+          <h4>Facebook Messenger on Cell Phone to TV Sound App</h4>
+          <p>An app that will let the user stream anything playing on their phone straight to their Television. It can take embedded messages in Facebook messenger, 
+             wheter it's videos or just audio, and stream it onto any Television connected to the same WiFi signal. Building this app required a lot of time in HTMl and 
+             CSS to get the perfect layout that was simple and clean, easy for the user to navigate without spending any unnecessary time navigating. Beyond that,
+             it required me to develop an entirely new skill, by learning how to get the app to interface with a WiFi Signal and transmit data over a network.</p>
+          <a href='404.html'>The Github</a>
+          <a href='404.html'>Starman</a>
+        </div>
+      </div>
+    </article>
+<hr>
+    <article>
+      <a id='contact'></a>      
+      <h3>Contact</h3>
+      <p>Below are some links to my Professional Social Media Accounts</p>
+      <ol>
+        <li><a href='mailto:Hendo1349@gmail.com'>Hendo1349@gmail.com</a></li>
+        <li><a target='_blank' href='https://github.com/Hendoe'>Github</a></li>
+        <li><a target='_blank'href='https://www.linkedin.com/in/steven-henderson-9334131a9/'>LinkedIn</a></li>
+      </ol>
+      <!-- This Form section sucks, gotta fix -->
+      <form id='contact'>
+        <label for='contact'>Your Name</label>
+        <input id='your-name' type='text' name='name'>           
+        <label for='form-message'>Contact Form</label>
+        <textarea id='form-message' name='message' placeholder='Let me know what you think about my site here, if you are so inclined'></textarea>
+        <button type='submit'>Submit</button>
+        <button type='reset'>Reset</button>
+      </form>
+    </article>
+
+      <footer class='group-uno'>
+        <h3>© Steven Henderson</h3>
+      </footer>
+
+  </main>
+
+  </body>
+
+</html>
