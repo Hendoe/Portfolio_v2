@@ -1,12 +1,11 @@
 /*  3 colors
-    #83537A Body
+    #704868 Body
     #5C415D Header / Footer
     #483246 Borders
 
-
 /* .2 keep this */
 body {
-    background: #83537A;
+    background: #704868;
     margin-left: 8%;
     margin-right: 8%;
 }
@@ -19,6 +18,7 @@ h1 {
     font-size: 20px;
     font-weight: 250;
     text-decoration: underline;
+    color: white
 }
 
 /* Just for Main Subtitle */
@@ -27,33 +27,39 @@ h2 {
     font-size: 16px;
     font-weight: 250;
     padding-bottom: 0px;
+    color: white;
 }
 
 /* Used for all small Titles */
 h3 {
     font-family: "Times New Roman", Arial;
     font-size: 14px;
+    color: white;
 }
 
 h4 { 
     font-family: "Times New Roman, Arial";
     font-size: 14px;
+    color: white;
 }
 
 p {
     font-size: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 ul {
       list-style-type: none;
       font-size: 12px;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: white;
 }
 
 ol {
     font-size: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 /* .2 have to kepp for FLEX purposes */
@@ -95,7 +101,6 @@ img {
 .group-project {
     display: flex;
     flex-direction: column;
-    background-color: #483246;
 }
 
 .group-contact {
@@ -139,7 +144,9 @@ hr {
 form label {
     display: block;
     font-size: 36px;
+    color: white;
 }
+
 form input, textarea {
     width: 100%;
 }
@@ -196,7 +203,6 @@ form textarea {
     display: flex;
     flex-direction: row;
     align-content: space-between;
-    background-color: #483246;
     }
 
     .item-tres {
@@ -208,8 +214,8 @@ form textarea {
     
 }
     /* Cool Stuff (what is this called again ???) */
-    a { color: white }
-    a:link { color: white}
+    a { color: #FFFAD6 }
+    a:link { color: #FFFAD6}
     /*a:visited { color: gray}
     a:hover { color:darkviolet}
     a:active { color: goldenrod}
